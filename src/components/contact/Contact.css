@@ -1,0 +1,45 @@
+.c{
+    height: 30vh;
+    /* background-color: rgb(243, 242, 242); */
+
+}
+.c-top{
+    height:15vh;
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  
+    /* background-color: aquamarine; */
+/* padding: 10px 0px 0px 10px; */
+ 
+}
+.c-title{
+    text-align: center;
+ /* padding: 20px 20px; */
+    font-weight: bold;
+    color: lightblue
+}
+.c-bottom{
+    height: 15vh;
+    width: 25%;
+    margin-left: 38%;
+    padding-top: 10px;
+}
+.c-itemlist{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.c-item-logo{
+    height: 50px;
+    width: 50px;
+    cursor: pointer; 
+}
+@media screen and (max-width:480px)  {
+    .c-bottom{
+        margin-left: 30%;
+    }
+}
